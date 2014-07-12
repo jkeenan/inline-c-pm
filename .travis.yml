@@ -28,6 +28,7 @@ install:
   Test::Warn
   YAML::XS
   version
+  YAML::XS
 
 script:
 - PERL5OPT=-MDevel::Cover=-coverage,statement,branch,condition,path,subroutine
