@@ -18,6 +18,7 @@ perl:
 install:
 - cpanm --quiet --notest
   Devel::Cover::Report::Coveralls
+  File::Copy::Recursive
   File::Spec
   Inline
   IO::All
@@ -26,6 +27,7 @@ install:
   Test::More
   Test::Warn
   YAML::XS
+  version
 
 script:
 - PERL5OPT=-MDevel::Cover=-coverage,statement,branch,condition,path,subroutine
