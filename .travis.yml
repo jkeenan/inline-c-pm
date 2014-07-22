@@ -26,7 +26,6 @@ install:
   Pegex
   Test::More
   Test::Warn
-  YAML::XS
   version
   YAML::XS
 
