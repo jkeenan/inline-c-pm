@@ -8,7 +8,7 @@ use IPC::Cmd qw/run/;
 require version;
 use File::Path;
 use Cwd;
-use File::Copy::Recursive qw(rcopy);
+use File::Copy::Recursive::Reduced 0.005 qw(rcopy);
 use autodie;
 
 my @make_targets = qw(test install);

@@ -40,7 +40,7 @@ win32:
 test:
   requires:
     autodie: 0
-    File::Copy::Recursive: 0
+    File::Copy::Recursive::Reduced: 0.005
     File::Path: 0
     Test::More: 0.88
     Test::Warn: 0.23

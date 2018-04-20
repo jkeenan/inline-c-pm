@@ -24,7 +24,7 @@ install:
   Devel::Cover::Report::Coveralls
   autodie
   ExtUtils::MakeMaker
-  File::Copy::Recursive
+  File::Copy::Recursive::Reduced
   File::Path
   File::Spec
   Inline
